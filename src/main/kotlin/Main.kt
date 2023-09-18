@@ -20,15 +20,23 @@ fun main(args: Array<String>) {
     // Immutable list
     // val listNumbers = listOf<Int>()
     // Mutable list
-    val listNumbers = mutableListOf<Int>()
+    // val listNumbers = mutableListOf<Int>()
     // Them phan tu
-    listNumbers.add(10) // index = 0
-    listNumbers.add(20) // index = 1
-    listNumbers.add(30) // index = 2
+    // listNumbers.add(10) // index = 0
+    // listNumbers.add(20) // index = 1
+    // listNumbers.add(30) // index = 2
     // Xoa phan tu
-    listNumbers.removeAt(2)
+    // listNumbers.removeAt(2)
     // Cap nhat phan tu
-    listNumbers[0] = 9
+    // listNumbers[0] = 9
+    // print(listNumbers.size.toString())
 
-    print(listNumbers.size.toString())
+    // Set: Khong luu gia tri trung
+    // Khai bao
+    // val setPersons = mutableSetOf<String>()
+    // Them du lieu
+    // setPersons.add("Teo")
+    // setPersons.add("Teo")
+
+    // print(setPersons.size.toString())
 }
