@@ -13,4 +13,5 @@ fun main(args: Array<String>) {
     var height: Float = 1.75f
     var age = 29
     var isMale = true
+    for test
 }
