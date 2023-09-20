@@ -37,6 +37,15 @@ fun main(args: Array<String>) {
     // Them du lieu
     // setPersons.add("Teo")
     // setPersons.add("Teo")
-
     // print(setPersons.size.toString())
+
+    // Map
+    val mapProducts = mutableMapOf(
+        "name" to "Ti",
+        "age" to 5,
+        "address" to "Quan 10"
+    )
+
+    print(mapProducts["name"])
+    print(mapProducts["age"])
 }
