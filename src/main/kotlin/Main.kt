@@ -40,12 +40,30 @@ fun main(args: Array<String>) {
     // print(setPersons.size.toString())
 
     // Map
-    val mapProducts = mutableMapOf(
-        "name" to "Ti",
-        "age" to 5,
-        "address" to "Quan 10"
-    )
+    // val mapProducts = mutableMapOf(
+    //    "name" to "Ti",
+    //    "age" to 5,
+    //    "address" to "Quan 10"
+    //)
 
-    print(mapProducts["name"])
-    print(mapProducts["age"])
+    //print(mapProducts["name"])
+    //print(mapProducts["age"])
+
+    // 4: Toan tu
+    var a = 10
+    // a = a + 1
+    // a += 1
+    var b = a++ // a = 11
+    var c = ++a // a = 12
+
+    // a++
+    // Gan gia tri
+    // Tang a them 1 don vi (a += 1)
+
+    // ++a
+    // Tang a them 1 don vi (a += 1)
+    // Gan gia tri
+
+    print("B $b") // B = 10
+    print("C $c") // C = 12
 }
