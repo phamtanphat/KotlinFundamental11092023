@@ -67,10 +67,10 @@ fun main(args: Array<String>) {
     // print("B $b") // B = 10
     // print("C $c") // C = 12
 
-    var a = 3
-    var b = 5
+    // var a = 3
+    // var b = 5
 
-    var result = a++ - b-- + --b - a-- + b++ - --a
+    // var result = a++ - b-- + --b - a-- + b++ - --a
     // 3 - b-- + --b - a-- + b++ - --a ; a = 4 , b = 5
     // 3 - 5 + --b - a-- + b++ - --a ; a = 4 , b = 4
     // 3 - 5 + 3 - a-- + b++ - --a ; a = 4 , b = 3
@@ -78,4 +78,26 @@ fun main(args: Array<String>) {
     // 3 - 5 + 3 - 4 + 3 - --a ; a = 3 , b = 4
     // 3 - 5 + 3 - 4 + 3 - 2 ; a = 2 , b = 4
     // result = -2, a = 2, b = 4
+    // print("result = $result, a = $a, b = $b")
+
+    // 5: Cau dieu kien
+
+    // if else
+    var a = 5
+    var b = 10
+
+    // Neu a lon b: In ra a lon b
+    // Neu a nho b: In ra a nho b
+    // Neu a bang b: In ra a bang b
+
+    // {} : scope (Pham vi)
+    // () : chua bieu thuc
+
+    if (a > b) {
+        print("A lon hon b")
+    } else if (a == b) {
+        print("A bang b")
+    } else {
+        print("A be hon b")
+    }
 }
