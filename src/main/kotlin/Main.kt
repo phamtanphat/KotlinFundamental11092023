@@ -106,4 +106,24 @@ fun main(args: Array<String>) {
     val weight = 70.5
     val height = 1.75
     val bmi = weight / (height * height)
+
+    // && => Chi dung khi va chi khi tat ca deu dung
+    // || => Chi sai khi tat ca deu sai
+
+    if (bmi < 18.5) {
+        print("Can nang thap (gay)")
+    } else if (bmi <= 24.9) {
+        print("Can nang binh thuong")
+    } else if (bmi == 25.toDouble()) {
+        print("Can nang binh thuong")
+    } else if (bmi <= 29.9) {
+        print("Tien beo phi")
+    } else if (bmi <= 34.9) {
+        print("Tien beo phi do 1")
+    } else if (bmi <= 39.9) {
+        print("Tien beo phi do 2")
+    } else {
+        // Case bmi >= 40
+        print("Tien beo phi do 3")
+    }
 }
