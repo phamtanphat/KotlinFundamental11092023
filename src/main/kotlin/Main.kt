@@ -81,10 +81,10 @@ fun main(args: Array<String>) {
     // print("result = $result, a = $a, b = $b")
 
     // 5: Cau dieu kien
-
     // if else
-    var a = 5
-    var b = 10
+
+    // var a = 5
+    // var b = 10
 
     // Neu a lon b: In ra a lon b
     // Neu a nho b: In ra a nho b
@@ -93,11 +93,17 @@ fun main(args: Array<String>) {
     // {} : scope (Pham vi)
     // () : chua bieu thuc
 
-    if (a > b) {
-        print("A lon hon b")
-    } else if (a == b) {
-        print("A bang b")
-    } else {
-        print("A be hon b")
-    }
+    // if (a > b) {
+    //    print("A lon hon b")
+    // } else if (a == b) {
+    //    print("A bang b")
+    // } else {
+    //    print("A be hon b")
+    // }
+
+    // Vi du: Tinh BMI
+
+    val weight = 70.5
+    val height = 1.75
+    val bmi = weight / (height * height)
 }
