@@ -178,4 +178,29 @@ fun main(args: Array<String>) {
 //     for ((index, number) in (1..100).withIndex()) {
 //
 //    }
+
+    // Vi du: Vong lap chay tu 0 den 100
+    // 1: In ra so chan => So chan la nhung so chia het cho 2
+    // 2: In ra so le => So le la nhung so khong chia het cho 2
+    // 3: In ra so chia 3 du 1
+    // 4: In ra so chinh phuong
+
+    // Vi du kiem tra phai la so nguyen to
+    // var number = 191
+
+
+    // Yeu cau khach hang => Solution
+    // Ky thuat
+
+    for (value in 0 .. 100) {
+//        Dieu kien in ra so chan
+//        if (value % 2 == 0) {
+//            println(value)
+//        }
+
+        // Dieu kien in ra so le
+        if (value % 2 != 0) {
+            println(value)
+        }
+    }
 }
