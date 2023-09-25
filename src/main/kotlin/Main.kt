@@ -149,13 +149,33 @@ fun main(args: Array<String>) {
 //        is Int -> Trường hợp kiểu dữ liệu
 //    }
 
-    val month = 5
-    val message = when(month) {
-        in 1..3 -> "Quý 1"
-        in 4..6 -> "Quý 2"
-        in 7..9 -> "Quý 3"
-        in 10..12 -> "Quý 4"
-        else -> "Khong xac dinh"
-    }
-    print(message)
+//    val month = 5
+//    val message = when(month) {
+//        in 1..3 -> "Quý 1"
+//        in 4..6 -> "Quý 2"
+//        in 7..9 -> "Quý 3"
+//        in 10..12 -> "Quý 4"
+//        else -> "Khong xac dinh"
+//    }
+//    print(message)
+
+//    6: Vong lap for
+
+//     Vong lap trong khoang 0<= value <= 100
+//     for (value in 0..100)
+//     Vong lap trong khoang 0<= value < 100
+//     for (value in 0 until 100)
+//     Vong lap co buoc nhay la 2
+//     for (value in 0 until 100 step 2)
+//     Vong lap duyet nguoc
+//     for (value in 100 downTo 0)
+//     Vong lap co index
+//     val listNumbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+//     for ((index, number) in listNumbers.withIndex()) {
+//
+//     }
+//
+//     for ((index, number) in (1..100).withIndex()) {
+//
+//    }
 }
