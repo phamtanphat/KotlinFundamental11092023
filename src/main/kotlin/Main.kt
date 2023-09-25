@@ -80,8 +80,7 @@ fun main(args: Array<String>) {
 //     result = -2, a = 2, b = 4
 //     print("result = $result, a = $a, b = $b")
 //
-//     5: Cau dieu kien
-//     if else
+//     5: Cau dieu kien (if else)
 //
 //     var a = 5
 //     var b = 10
@@ -134,11 +133,29 @@ fun main(args: Array<String>) {
 //      ON / OFF
 //      TRUE / FALSE
 //   thêm is phía trước tên biến => isChecked
-    var checkBox = true // Example: Dang kiem tra trang thai check cho CheckBox
-    var isChecked = if (checkBox) {
-        print("Hello")
-        true
-    } else {
-        false
+//    var checkBox = true // Example: Dang kiem tra trang thai check cho CheckBox
+//    var isChecked = if (checkBox) {
+//        print("Hello")
+//        true
+//    } else {
+//        false
+//    }
+
+//     5: Cau dieu kien (when)
+//    when(month) {
+//        in 1..5 -> Trường hợp trong khoảng
+//        5 -> Trường hợp giá trị cụ thể
+//        0, 1, 2, 5 -> Trường hợp cho nhiều giá trị cụ thể
+//        is Int -> Trường hợp kiểu dữ liệu
+//    }
+
+    val month = 5
+    val message = when(month) {
+        in 1..3 -> "Quý 1"
+        in 4..6 -> "Quý 2"
+        in 7..9 -> "Quý 3"
+        in 10..12 -> "Quý 4"
+        else -> "Khong xac dinh"
     }
+    print(message)
 }
