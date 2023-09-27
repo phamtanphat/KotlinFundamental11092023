@@ -216,24 +216,46 @@ fun main(args: Array<String>) {
 //    }
 
 //     Vi du kiem tra phai la so nguyen to
-     val number = 1959
+//     val number = 1959
 
-    if (number <= 1) {
-        println("Số $number không phải là số nguyên tố")
-        return
-    }
+//    if (number <= 1) {
+//        println("Số $number không phải là số nguyên tố")
+//        return
+//    }
 
-    var totalDivisor = 1
+//    var totalDivisor = 1
     // Number > 1
-    for (value in 2..<number) {
-        if (number % value == 0) {
-            totalDivisor++
-            if (totalDivisor >= 3) {
-                println("Số $number không phải là số nguyên tố")
-                return
-            }
-        }
-    }
+//    for (value in 2..<number) {
+//        if (number % value == 0) {
+//            totalDivisor++
+//            if (totalDivisor >= 3) {
+//                println("Số $number không phải là số nguyên tố")
+//                return
+//            }
+//        }
+//    }
+//
+//    print("Số $number là số nguyên tố")
 
-    print("Số $number là số nguyên tố")
+    // 7: Vong lap while
+
+//    var count = 10
+//    while (count > 0) {
+//        count--
+//        println("Số lần hiển thị: $count")
+//    }
+
+    // do while
+    var number = (Math.round(Math.random() * 5) + 5).toInt()
+    var count = 0
+    do {
+        if (number == 5) {
+            count++
+            println("Số vòng lặp để kiếm được giá trị là 5 là $count")
+            break
+        }
+        println("Số random được $number")
+        count++
+        number = (Math.round(Math.random() * 5) + 5).toInt()
+    } while (true)
 }
