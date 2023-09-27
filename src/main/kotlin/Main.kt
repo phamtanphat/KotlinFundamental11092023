@@ -187,10 +187,7 @@ fun main(args: Array<String>) {
     // 3: In ra so chia 3 du 1
     // 4: In ra so chinh phuong
 
-    // Vi du kiem tra phai la so nguyen to
-    // var number = 191
-
-    for (value in 0 .. 100) {
+//    for (value in 0 .. 100) {
 //        Dieu kien in ra so chan
 //        if (value % 2 == 0) {
 //            println(value)
@@ -207,9 +204,36 @@ fun main(args: Array<String>) {
 //        }
 
 //        Dieu kien in so chinh phuong
-        val result = sqrt(value.toFloat())
-        if (result % 1.0f == 0.0f) {
-            println(value)
+//        continue bỏ qua vòng lặp hiện tại để chạy vòng tiếp theo (Sử dụng cho vòng lặp)
+//        break dùng để thoát vòng lặp (Sử dụng cho vòng lặp)
+//        return thì dùng kết thúc 1 function
+//        if (value == 0) continue
+//        if (value >= 10) break
+//        val result = sqrt(value.toFloat())
+//        if (result % 1.0f == 0.0f) {
+//            println(value)
+//        }
+//    }
+
+//     Vi du kiem tra phai la so nguyen to
+     val number = 1959
+
+    if (number <= 1) {
+        println("Số $number không phải là số nguyên tố")
+        return
+    }
+
+    var totalDivisor = 1
+    // Number > 1
+    for (value in 2..<number) {
+        if (number % value == 0) {
+            totalDivisor++
+            if (totalDivisor >= 3) {
+                println("Số $number không phải là số nguyên tố")
+                return
+            }
         }
     }
+
+    print("Số $number là số nguyên tố")
 }
