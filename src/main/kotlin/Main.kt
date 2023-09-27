@@ -1,3 +1,5 @@
+import kotlin.math.sqrt
+
 fun main(args: Array<String>) {
 //     1: Khai bao bien
 //     Immutable (val) va mutable (var)
@@ -188,18 +190,25 @@ fun main(args: Array<String>) {
     // Vi du kiem tra phai la so nguyen to
     // var number = 191
 
-
-    // Yeu cau khach hang => Solution
-    // Ky thuat
-
     for (value in 0 .. 100) {
 //        Dieu kien in ra so chan
 //        if (value % 2 == 0) {
 //            println(value)
 //        }
 
-        // Dieu kien in ra so le
-        if (value % 2 != 0) {
+//        Dieu kien in ra so le
+//        if (value % 2 != 0) {
+//            println(value)
+//        }
+
+//        Dieu kien in so chia 3 du 1
+//        if (value % 3 == 1) {
+//            println(value)
+//        }
+
+//        Dieu kien in so chinh phuong
+        val result = sqrt(value.toFloat())
+        if (result % 1.0f == 0.0f) {
             println(value)
         }
     }
