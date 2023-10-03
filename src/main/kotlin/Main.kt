@@ -1,4 +1,6 @@
+import java.util.Objects
 import kotlin.math.sqrt
+import kotlin.random.Random
 
 fun main(args: Array<String>) {
 //     1: Khai bao bien
@@ -9,6 +11,7 @@ fun main(args: Array<String>) {
 //     Kieu so thuc: Float, Double
 //     Kieu luan ly: Boolean (true, false)
 //     Kieu chuoi: String
+//     Kieu doi tuong: Class
 //
 //     val name: String = "Pham Tan Phat"
 //     var weight: Double = 70.5
@@ -246,16 +249,23 @@ fun main(args: Array<String>) {
 //    }
 
     // do while
-    var number = (Math.round(Math.random() * 5) + 5).toInt()
-    var count = 0
-    do {
-        if (number == 5) {
-            count++
-            println("Số vòng lặp để kiếm được giá trị là 5 là $count")
-            break
-        }
-        println("Số random được $number")
-        count++
-        number = (Math.round(Math.random() * 5) + 5).toInt()
-    } while (true)
+//    Math.random()
+//    var number = (Math.round(Math.random() * 5) + 5).toInt()
+//    var count = 0
+//    do {
+//        if (number == 5) {
+//            count++
+//            println("Số vòng lặp để kiếm được giá trị là 5 là $count")
+//            break
+//        }
+//        println("Số random được $number")
+//        count++
+//        number = (Math.round(Math.random() * 5) + 5).toInt()
+//    } while (true)
+
+    // 8: Huong doi tuong (OOP)
+    // class va object
+
+    val cat: Animal = Animal()
+
 }
