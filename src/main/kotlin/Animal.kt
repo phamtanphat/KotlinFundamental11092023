@@ -15,8 +15,4 @@ class Animal (
         this.speed = speed
     }
 
-    fun doSomething(work: String): String {
-        print("Do $work")
-        return "Finish"
-    }
 }
