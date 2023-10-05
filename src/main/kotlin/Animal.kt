@@ -9,10 +9,12 @@ class Animal (
 //    var color: String = ""
 //     2: Phuong thuc
 
-    var speed: String = ""
-//    Secondary constructor
-    constructor(name: String, weight: Float, color: String, speed: String) : this(name, weight, color) {
-        this.speed = speed
+    fun printInfoAnimal() {
+        println("""
+            Name: $name
+            Weight: $weight
+            Color: $color
+        """.trimIndent())
     }
 
 }
