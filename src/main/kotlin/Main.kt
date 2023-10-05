@@ -266,7 +266,7 @@ fun main(args: Array<String>) {
     // 8: Huong doi tuong (OOP)
     // class va object
 
-    val cat: Animal = Animal(null, 3.3f, "white")
+    val cat: Animal = Animal("Mimi", 3.3f, "white", "1m/s")
 
     println("""
         Name: ${cat.name}
