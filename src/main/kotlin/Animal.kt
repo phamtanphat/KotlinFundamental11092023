@@ -1,13 +1,14 @@
-class Animal (
-    var name: String,
-    var weight: Float,
-    var color: String
-) {
-//     1: Thuoc tinh
-//    var name: String = ""
-//    var weight: Float = 0.0f
-//    var color: String = ""
-//     2: Phuong thuc
+open class Animal {
+    var name: String = ""
+    var weight: Float = 0.0f
+    var color: String = ""
+    protected var speed: String = ""
+
+    constructor(name: String, weight: Float, color: String) {
+        this.name = name
+        this.weight = weight
+        this.color = color
+    }
 
     fun printInfoAnimal() {
         println("""
@@ -16,5 +17,4 @@ class Animal (
             Color: $color
         """.trimIndent())
     }
-
 }

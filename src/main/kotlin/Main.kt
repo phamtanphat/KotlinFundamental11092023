@@ -1,7 +1,3 @@
-import java.util.Objects
-import kotlin.math.sqrt
-import kotlin.random.Random
-
 fun main(args: Array<String>) {
 //     1: Khai bao bien
 //     Immutable (val) va mutable (var)
@@ -266,6 +262,10 @@ fun main(args: Array<String>) {
     // 8: Huong doi tuong (OOP)
     // class va object
 
+    // Các tính chất trong OOP
+
+    // Tính đóng gói
     val cat: Animal = Animal("Mimi", 3.3f, "white")
-    cat.printInfoAnimal()
+
+    println(cat.speed)
 }
