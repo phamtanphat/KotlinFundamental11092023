@@ -9,7 +9,7 @@ open class Animal {
         this.color = color
     }
 
-    fun printInfoAnimal() {
+    open fun printInfo() {
         println("""
             Name: $name
             Weight: $weight
