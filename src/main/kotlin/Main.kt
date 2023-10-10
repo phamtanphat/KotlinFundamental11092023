@@ -268,4 +268,5 @@ fun main(args: Array<String>) {
 //    val cat: Animal = Animal("Mimi", 3.3f, "white")
     val cat: Cat = Cat("Mimi", 3.3f, "white", 2.5f)
     cat.printInfo()
+
 }
