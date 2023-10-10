@@ -1,3 +1,6 @@
+import abstraction.PizzaCheese
+import abstraction.PizzaStore
+
 fun main(args: Array<String>) {
 //     1: Khai bao bien
 //     Immutable (val) va mutable (var)
@@ -266,7 +269,10 @@ fun main(args: Array<String>) {
 
     // Tính đóng gói
 //    val cat: Animal = Animal("Mimi", 3.3f, "white")
-    val cat: Cat = Cat("Mimi", 3.3f, "white", 2.5f)
-    cat.printInfo()
+//    val cat: Cat = Cat("Mimi", 3.3f, "white", 2.5f)
+//    cat.printInfo()
 
+
+    val pizzaStore = PizzaStore()
+    pizzaStore.orderPizza(PizzaCheese())
 }
