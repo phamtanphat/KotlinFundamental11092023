@@ -1,9 +1,15 @@
 class Facebook: OnLogin {
+    override fun executeLogin(): Boolean {
+        print("Execute login")
+        return true
+    }
+
     override fun loginSuccess() {
-        TODO("Not yet implemented")
+        print("Login success")
     }
 
     override fun loginFail() {
-        TODO("Not yet implemented")
+        print("Login success")
     }
+
 }
