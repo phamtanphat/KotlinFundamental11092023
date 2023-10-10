@@ -266,6 +266,4 @@ fun main(args: Array<String>) {
 
     // Tính đóng gói
     val cat: Animal = Animal("Mimi", 3.3f, "white")
-
-    println(cat.speed)
 }
